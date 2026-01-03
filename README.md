@@ -12,6 +12,10 @@ _Provides option to save a new .txt file, client product._
 
 **Usage**
 
+
+<img width="1455" height="813" alt="full length text" src="https://github.com/user-attachments/assets/46d46a2c-6040-4510-abe3-24edec0f286f" />
+
+
 **Produce Summary**
 _python -m summarize example.txt_
 
