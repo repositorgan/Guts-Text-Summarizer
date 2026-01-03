@@ -70,4 +70,12 @@ _python -m summarize example.txt -o output.txt_
 |       Option to save output      |
 
 **Installation**
-Clone the repository:
+Clone the repository
+
+**Roadmap**
+
+> Enhance package feature to include .pdf and .docx file summarization.
+
+> Produce desktop application to run the software.
+
+> Summarize live website content.
