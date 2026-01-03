@@ -1,5 +1,5 @@
 # Guts-Text-Summarizer
-> Reads a text (.txt) file and consolidates it into an easy to read 1-2 sentence summary. Performance spinner UX.
+> Reads a text (.txt) file and consolidates it into an easy to read 1-2 sentence summary. Performance spinner UX. Base for package expansion.
 
 **Why do we care?**
 
