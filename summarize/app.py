@@ -6,7 +6,7 @@
 #!/usr/bin/env python3
 
 """
-AI-Powered Text Summarizer CLI Tool
+Text Summarizer CLI Tool
 Features:
 - CLI support (argparse)
 - Error handling (missing or empty file)
@@ -21,7 +21,7 @@ import sys # System exit.
 import os # File path.
 import time # Timestamping.
 
-# Import (AI text summarization and load text file) functions from called upon modules.
+# Import (Text summarization and load text file) functions from called upon modules.
 from .model import summarize_text
 from .utils import load_text
 
@@ -36,7 +36,7 @@ def spinner():
 def main():
   # Initialize parser (analysis) with description.
   parser = argparse.ArgumentParser(
-    description="AI-powered text summarizer CLI tool"
+    description="Text summarizer CLI tool"
   )
   # Input the text file we want to consolidate.
   parser.add_argument(
@@ -50,7 +50,7 @@ def main():
     type=str,
     help="Optional output file to save the summary"
   )
-  # Allow for plenty of, (verbose), documentation of each step of process (ideal for teaching and auditing).
+  # Allow for verbose mode, documentation of process.
   parser.add_argument(
     "-v", "--verbose",
     action="store_true",
@@ -87,7 +87,7 @@ def main():
     time.sleep(0.05)
     sys.stdout.write("\b")
 
-  # Executive AI summarization.
+  # Executive summarization.
   summary = summarize_text(text)
   
   # Print summary to console.
